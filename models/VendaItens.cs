@@ -1,16 +1,16 @@
 namespace LojaDeGames.Models;
 
-public class Venda
+public class VendaItens
 {
-
     public int id { get; set; }
-    public decimal valor_total { get; set; }
-    public string forma_pagamento { get; set; }
-    public int id_usuario { get; set; }
-    public int id_endereco { get; set; }
+    public int id_venda { get; set; }
+    public int id_produto { get; set; }
+    public decimal valor_venda { get; set; }
+    public string venda_itensco1 { get; set; }
     public DateTime criado_em { get; set; }
     public DateTime alterado_em { get; set; }
     public DateTime criado_por { get; set; }
     public DateTime alterado_por { get; set; }
+
 
 }
