@@ -1,5 +1,7 @@
 namespace LojaDeGames.Models;
 
+using System;
+
 public class Produto
 {
 
